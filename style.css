@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    background-color: #ffffff;
+    font-size: 130%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    display: inline-block;
+}
+
+h2 {
+    font-size: 50px;
+
+}
+
+h3 {
+    font-size: 1.7em;
+    font-family: sans-serif;
+    color: white;
+}
+
+a {
+    font-size: 100%;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+
+}
+iframe {
+    display: inline-block;
+}
+
+strong {
+    color: #a35811;
+    font-weight: bolder;
+}
+
+em strong {
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+footer nav p {
+    display: inline;
+}
+
+p {
+    font-size: 1.1em;
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+}
+
+#alunos {
+    width: 100%;
+    margin: auto;
+    padding: auto;
+    line-height: 40px;
+    padding: 3em;
+    padding-top: 3em;
+    padding-bottom: 20em;
+}
+
+.aluno {
+    text-align: center;
+    width: 3em;
+    margin: 20%;
+    width: 30%;
+    margin: auto;
+}
+
+.header {
+    background-color: white;
+    padding-bottom: 80px;
+}
+
+.background {
+    background-position: 50% 25%;
+    background-size: cover;
+    padding: 500px 30px 500px;
+    background-image: url(/images/0x0.webp);
+    background-blend-mode: screen;
+    background-color: #38a19986;
+    text-align: center;
+}
+main {
+    text-align: center;
+}
+
+.title {
+    padding: 1em 1em;
+    background-color: #fffb00;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+    color: #000000;
+}
+
+.names {
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.paragrath {
+    text-align: center;
+    line-height: 50px;
+    padding-top: 50px;
+
+}
+
+.paragrath2 {
+    color: #000000;
+    width: 30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin: auto;
+    font-weight: 100px;
+    line-height: 40px;
+
+}
+
+.oceanblue {
+    color: #1b9c9c;
+}
+
+.button2 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding: auto;
+    display: inline-block;
+    border: 6px solid black;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+header .button2 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 500;
+    display: inline-block;
+    border: 3px solid black;
+    padding: 20px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: -4px;
+
+}
+
+
+.pictures {
+    border-radius: 50%;
+}
+
+header a:hover {
+    background-color: #ffffff;
+}
+
+header a:active {
+    background-color: white;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: white;
+    background-color: #000000;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    background-color: #ffffff;
+    text-decoration: none;
+
+}
+
+#dif-color {
+    color: #bbff00;
+
+}
+
+#video {
+    padding-right: 100%;
+    position: absolute;
+    z-index: 3;
+    background-color: rgb(24, 61, 61);
+}
