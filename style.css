@@ -113,7 +113,6 @@ li {
     text-align: center;
 }
 main {
-    text-align: center;
 }
 
 .title {
@@ -134,12 +133,15 @@ main {
 }
 
 .paragrath {
-    text-align: center;
     padding-top: 50px;
-
+    text-align: justify;
 }
 
 .paragrath2 {
+
+    max-width: min-content;
+    padding-left: 1em;
+    padding-right: 1em;
     color: #000000;
     width: 90%;
     margin-top: 30px;
@@ -155,27 +157,7 @@ main {
     color: #1b9c9c;
 }
 
-.button2 {
-    text-align: center;
-    font-size: 1.2em;
-    font-weight: 500;
-    padding: auto;
-    display: inline-block;
-    border: 6px solid black;
-    padding: 20px;
-    margin-top: 50px;
-    margin-bottom: 30px;
-
-}
-
-.images2 {
-    width: 100p;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-header .button2 {
+.button1 {
     text-align: center;
     font-size: 1.5em;
     font-weight: 500;
@@ -188,6 +170,24 @@ header .button2 {
     border-radius: 4px;
 
 }
+
+.button2 {
+    text-align: center;
+    font-size: 0.5em;
+    font-weight: 500;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 3px;
+    padding: 10px ;
+    margin-top: 1em;
+
+}
+
+.images2 {
+    width: 100p;
+    margin: auto;
+}
+
 
 
 .pictures {
@@ -227,6 +227,15 @@ span a:active {
     color: rgb(0, 0, 0);
     background-color: #ffffff;
     text-decoration: underline 2px solid rgb(0, 255, 21);
+
+}
+
+a img:hover {
+    background-color: #a1a1a1;
+}
+
+a img:active {
+    background-color: #cfcfcf;
 
 }
 
