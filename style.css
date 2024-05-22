@@ -9,6 +9,7 @@ body {
     font-size: 130%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: rgb(0, 0, 0);
+    line-height: 32px;
 }
 
 h1 {
@@ -28,6 +29,10 @@ h3 {
     color: white;
 }
 
+h6 {
+    color: darkgreen;
+}
+
 a {
     font-size: 100%;
     font-family: sans-serif;
@@ -36,6 +41,11 @@ a {
     font-weight: 600;
 
 }
+
+span a {
+    text-decoration: underline 2px rgb(29, 59, 230);
+}
+
 iframe {
     display: inline-block;
 }
@@ -43,6 +53,8 @@ iframe {
 strong {
     color: #a35811;
     font-weight: bolder;
+    text-decoration: underline 1px darkblue;
+
 }
 
 em strong {
@@ -56,8 +68,12 @@ footer nav p {
 }
 
 p {
-    font-size: 1.1em;
-    display: inline-block;
+    display: block;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
 }
 
 li {
@@ -119,19 +135,19 @@ main {
 
 .paragrath {
     text-align: center;
-    line-height: 50px;
     padding-top: 50px;
 
 }
 
 .paragrath2 {
     color: #000000;
-    width: 30%;
+    width: 90%;
     margin-top: 30px;
     margin-bottom: 30px;
     margin: auto;
     font-weight: 100px;
-    line-height: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 }
 
@@ -141,7 +157,7 @@ main {
 
 .button2 {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 500;
     padding: auto;
     display: inline-block;
@@ -152,16 +168,24 @@ main {
 
 }
 
+.images2 {
+    width: 100p;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 header .button2 {
     text-align: center;
     font-size: 1.5em;
     font-weight: 500;
     display: inline-block;
     border: 3px solid black;
-    padding: 20px;
+    padding: 10px;
     margin-top: 1px;
     margin-bottom: 1px;
     margin-left: -4px;
+    border-radius: 4px;
 
 }
 
@@ -171,11 +195,11 @@ header .button2 {
 }
 
 header a:hover {
-    background-color: #ffffff;
+    background-color: #000000;
 }
 
 header a:active {
-    background-color: white;
+    background-color: rgb(209, 209, 209);
     text-decoration: none;
 
 }
@@ -190,6 +214,19 @@ a:active {
     color: black;
     background-color: #ffffff;
     text-decoration: none;
+
+}
+
+span a:hover {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    text-decoration: underline 2px solid rgb(0, 255, 21);
+}
+
+span a:active {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    text-decoration: underline 2px solid rgb(0, 255, 21);
 
 }
 
