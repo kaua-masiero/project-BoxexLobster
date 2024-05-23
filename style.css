@@ -5,7 +5,7 @@
 
 body {
 
-    background-color: #ffffff;
+    background-color: #f1e6db;
     font-size: 130%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: rgb(0, 0, 0);
@@ -31,6 +31,7 @@ h3 {
 
 h6 {
     color: darkgreen;
+    padding-left: 20px;
 }
 
 a {
@@ -41,6 +42,7 @@ a {
     font-weight: 600;
 
 }
+
 
 span a {
     text-decoration: underline 2px rgb(29, 59, 230);
@@ -73,12 +75,27 @@ p {
     margin-block-end: 2em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    unicode-bidi: isolate;
 }
 
-li {
-    display: inline-block;
+footer {
+    background-color: black;
+    line-height: 0.4;
+    padding: 30%;
+    text-align: center;
 }
+footer a{
+    color: yellow;
+    text-decoration: none;
+}
+
+footer h6 {
+    color: white;
+}
+
+footer span a :hover {
+    background-color: rgb(241, 9, 9);
+}
+
 
 #alunos {
     width: 100%;
@@ -112,8 +129,6 @@ li {
     background-color: #38a19986;
     text-align: center;
 }
-main {
-}
 
 .title {
     padding: 1em 1em;
@@ -133,13 +148,13 @@ main {
 }
 
 .paragrath {
-    padding-top: 50px;
+    padding-top: 30px;
     text-align: justify;
 }
 
 .paragrath2 {
 
-    max-width: min-content;
+    max-width: 40em;
     padding-left: 1em;
     padding-right: 1em;
     color: #000000;
@@ -162,6 +177,20 @@ main {
     font-size: 1.5em;
     font-weight: 500;
     display: inline-block;
+    border: 3px solid rgb(255, 217, 0);
+    padding: 10px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: -4px;
+    border-radius: 4px;
+
+}
+
+header .button1 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 500;
+    display: inline-block;
     border: 3px solid black;
     padding: 10px;
     margin-top: 1px;
@@ -174,45 +203,60 @@ main {
 .button2 {
     text-align: center;
     font-size: 0.5em;
-    font-weight: 500;
+    font-weight: bold;
     display: inline-block;
     border: 3px solid black;
     border-radius: 3px;
-    padding: 10px ;
+    padding: 10px 20px;
     margin-top: 1em;
 
 }
 
-.images2 {
-    width: 100p;
-    margin: auto;
+#lobster1 {
+    margin-top: 1px;
+    margin-bottom: 320px;
+    width: 90%;
+    max-width: 40em;
+    max-width: fit-content;
+    
 }
 
+#lobster2 {
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
 
+.expand-icon {
+    margin-top: 1em;
+    margin-left: 1em;
+    position: absolute;
+    z-index: 2;
+}
+
+.test {
+    margin-left: 15px;
+}
+
+.images2 {
+    position: absolute;
+    z-index: 1;
+    width: 90%;
+    max-width: 40em;
+    margin: auto;
+}
 
 .pictures {
     border-radius: 50%;
 }
 
 header a:hover {
+    color: #000000;
     background-color: #000000;
 }
 
 header a:active {
-    background-color: rgb(209, 209, 209);
-    text-decoration: none;
-
-}
-
-a:hover {
-    color: white;
-    background-color: #000000;
-    text-decoration: none;
-}
-
-a:active {
-    color: black;
-    background-color: #ffffff;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
     text-decoration: none;
 
 }
@@ -231,11 +275,35 @@ span a:active {
 }
 
 a img:hover {
-    background-color: #a1a1a1;
+    background-color: #ffe600;
+    border-radius: 4px;
+
 }
 
 a img:active {
-    background-color: #cfcfcf;
+    background-color: #ffbb00;
+
+}
+
+footer a img:hover {
+    background-color: #000000;
+    border-radius: 4px;
+
+}
+
+footer a img:active {
+    background-color: #000000;
+
+}
+
+header img:hover {
+    background-color: #000000;
+    border-radius: 4px;
+
+}
+
+header img:active {
+    background-color: #ffffff;
 
 }
 
