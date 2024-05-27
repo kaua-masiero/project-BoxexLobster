@@ -1,4 +1,4 @@
-# project-BoxexLobster
+# project-BoxexLobster.github.io
 school project
 
 start date: 20/05/2024
